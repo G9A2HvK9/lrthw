@@ -1,0 +1,41 @@
+# puts = Prints a statement to the console. Followed by a new line
+# "Quotation Marks" = Determine that a set of characters are a "String" and should be manipulated as text
+# String = A set of characters delineated by a set of "Quotation marks" - typically words
+# Pound sign (#) = Text following ONLY a pound sign will be ignored by the program. However, can also be used in a string, in conjunction with {} to call on a variable.
+# + (Plus) = Addition
+# - (Minus) = Subtraction
+# / (Forward Slash) = Divides (rounds down to nearest whole number, if not floating point digits)
+# * (Asterisk) = Multiplication
+# % (Percent) = Remainder
+# < (Less Than)
+# > (Greater Than)
+# <= (Less than or equal o)
+# >= (Greater than or equal to)
+# = (Equals) = serves to define a variable --> name = variable
+# {} (Braces) = If used in conjunction with a pound sign (#) they serve to indicate an embedded variable #{name}
+# () (Brackets) = Especially used in functions to determine the arguments to be supplied
+# _ (Underscore) = Used in place of spaces as a place holder, as no spaces can be present in variable names for example
+# %{} = used to feed multiple variables straight into the console. Especially if used if same format needs to be applied multiple times.
+# \ (Backward Slash) = Escape variable used to avoid certain types of characters from altering the text in undesirable ways
+# \n = New line - can be used in middle of text to create a new line
+# \t = Indent - can be used in the middle fo text to indent the text
+# \\ = \ - Creates backward slash in text, as the escape variable lets us print \ to the console without altering text
+# \" = "
+# \' = '
+# print = Prints a line to the console, withot being followed by a new line.
+# gets = prompts the program to wait for user input (can be as simple as ENTER). Often preceded by prompt for a text input
+# .chomp = tells the the program to cut off the input after the prompt. Otherwise ENTER would go into the text input as a new line
+# to_i = converts a variable to an integer. ONLY works with numbers.
+# ARGV = Argument variable. Serves to enter a number of arguments into the program without using gets.
+# $stdin = needs to be used before gets can be applied if the ARGV is used in the text
+# open() = let's the program open a file in the terminal
+# .read = lets the program read a file in the program and will print the file to the console
+# .truncate() = manipulates an opened text file to
+# .write() = A write command that, when called upon a text file opened in the program, will write the specified content to that file.
+# .close = command to close an opened file. This will not only close the file, but also save all changes made to that file in the program.
+# .exist? = Checks whether a specified variable exists. This can be called on various forms, such as File.exist?(filename)
+# File = indicates that the next command will be pertaining to a file. File.exist?(filename)
+# def = opens a function, which you define in the brackets following this command. def functionname(arg1, arg2)
+# end = closes the current iteration of a process, like a function for example
+# *args = allows an arbitrary number of arguments to be entered and distribnuted amongst the variables of a function.
+# .seek() = can be used on an opened text file and will revert back to a specific position in that file. The number in brackets refers to bytes.
